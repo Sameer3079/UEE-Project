@@ -66,6 +66,12 @@ a:hover, a:active {
     }
 }
 
+#center-text {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
 /*
   Hamburger Menu
 ----------------------------------------*/
@@ -395,3 +401,4 @@ body{
     width:70%;
     height:55%;
 }
+
