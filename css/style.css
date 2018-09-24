@@ -66,6 +66,12 @@ a:hover, a:active {
     }
 }
 
+#center-text {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
 /*
   Hamburger Menu
 ----------------------------------------*/
