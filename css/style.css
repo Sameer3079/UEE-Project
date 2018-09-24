@@ -13,6 +13,7 @@ img {
 
 
 
+
 /*--------------------------------------------------------------
 # Links
 --------------------------------------------------------------*/
@@ -81,7 +82,7 @@ a:hover, a:active {
     position: absolute;
     height: 2px;
     width: 100%;
-    background: black;
+    background: white;
     border-radius: 10px;
     opacity: 1;
     left: 0;
@@ -183,5 +184,11 @@ a:hover, a:active {
 
 .site-navigation ul li a:hover{
     color:white;
+}
+
+#commonSelect {
+    display: block;
+    margin:auto;
+    text-align : center;  
 }
 
