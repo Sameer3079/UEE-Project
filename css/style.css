@@ -76,6 +76,13 @@ a:hover, a:active {
     cursor: pointer;
 }
 
+#center-qwe {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+
 .hamburger-menu span {
     display: block;
     position: absolute;
