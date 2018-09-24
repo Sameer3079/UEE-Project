@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Riyasewana</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS For Left side Wrapper-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <!-- Jquery -->
+    <script type='text/javascript' src='../js/jquery.js'></script>
+
+    <!--Bootstrap.min.css-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <!--Font awesome for icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!--Animated.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+
+
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="nav-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex flex-wrap justify-content-between align-items-center">
+                        <div class="site-branding d-flex align-items-center">
+                            <a class="d-block" href="../index.html" rel="home" style="font-size: 25px; text-decoration: none; color: white;">රියසෙවන​.COM</a>
+                            <a href="#"><i class="far fa-user fa-2x" style="color: white; margin-left: 25px; "
+                                    data-toggle="tooltip" title="Login"></i></a>
+                        </div><!-- .site-branding -->
+
+                        <nav class="site-navigation d-flex justify-content-end align-items-center">
+                            <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-content-center">
+                                <li><a href="#">Post a Ad</a></li>
+                                <li><a href="../contact.html">Contact Us</a></li>
+                                <hr style="color:white">
+                                <li class="d-block d-sm-none"><a href="../user_profile/my_profile.html">My Profile</a></li>
+                                <li class="d-block d-sm-none"><a href="../user_profile/my_ads.html">My Advertisements</a></li>
+                                <li class="d-block d-sm-none"><a href="./post_ads.html">Post Advertisements</a></li>
+                                <li class="d-block d-sm-none"><a href="./vehicle_ad.html">Sell Vehicles</a></li>
+                                <li class="d-block d-sm-none"><a href="./bike_ad.html">Sell Bikes</a></li>
+                                <li class="d-block d-sm-none"><a href="./vehicle_parts_ad.html">Sell Spare Parts</a></li>
+                                <li class="d-block d-sm-none"><a href="./wanted_ad.html">Wanted Ads</a></li>
+                                <li class="d-block d-sm-none"><a href="./contact_info.html">Contact Information</a></li>
+                                <li class="d-block d-sm-none"><a href="../index.html">Logout</a></li>
+                            </ul>
+                        </nav><!-- .site-navigation -->
+
+
+                        <div class="hamburger-menu d-lg-none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div><!-- .hamburger-menu -->
+
+                    </div><!-- .col -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </div><!-- .nav-bar -->
+    </header><!-- .site-header -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3" style="margin-bottom: 10px">
+                <h1 class="h2" id="center-text" style="margin-bottom: 10px;margin-top: 10px;"><i class="fas fa-wrench fa-lg" style="margin-right:20px"></i>Vehicle Spare Parts</h1>
+            </div> 
+            <div class="col-md-6"></div>
+        </div>
+        <div class="container col-md-6 offset-md-3 col-sm-12">
+            <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1" class="col-sm-12 col-md-6" >Part Condition</label>
+                        <select class="custom-select col-md-6 col-sm-12 ">
+                                <option selected>Select Condition</option>
+                                <option value="1">Brand New</option>
+                                <option value="2">Used</option>
+                        </select>
+                    </div> 
+
+                    <div class="form-group ">
+                        <label for="exampleInputEmail1" class="col-sm-12 col-md-6" >Part Used In</label>
+                        <select class="custom-select col-md-6 col-sm-12 ">
+                            <option selected>Select Use Vehicles</option>
+                            <option value>All</option>
+                            <option value="Car">Car</option><option value="Van">Van</option><option value="Jeep">Jeep</option><option value="Crew Cab">Crew Cab</option><option value="Sport">Sport</option><option value="Wagon">Wagon</option><option value="Pickup">Pickup</option><option value="Bus">Bus</option><option value="Lorry">Lorry</option><option value="Truck">Truck</option><option value="Three Wheel">Three Wheel</option><option value="Tractor">Tractor</option><option value="Heavy-Duty">Heavy-Duty</option><option value="Other">Other</option><option value="Motorcycle">Motorcycle</option>
+                        </select>
+                    </div> 
+
+                    <div class="form-group">
+                        <label for="exampleInputEmail1" class="col-md-4 col-sm-12 " >Part Category</label>
+                        <select class="custom-select col-md-6 col-sm-12 ">
+                            <option selected>Select Category</option>
+                            <option value="Air Conditioning & Heating">Air Conditioning & Heating</option><option value="Air Intake & Fuel Delivery">Air Intake & Fuel Delivery</option><option value="Axles & Axle Parts">Axles & Axle Parts</option><option value="Battery">Battery</option><option value="Brakes">Brakes</option><option value="Car Audio Systems">Car Audio Systems</option><option value="Car DVR">Car DVR</option><option value="Car Tuning & Styling">Car Tuning & Styling</option><option value="Carburetor">Carburetor</option><option value="Chassis">Chassis</option><option value="Electrical Components">Electrical Components</option><option value="Emission Systems">Emission Systems</option><option value="Engine Cooling">Engine Cooling</option><option value="Engines & Engine Parts">Engines & Engine Parts</option><option value="Exhausts & Exhaust Parts">Exhausts & Exhaust Parts</option><option value="External & Body Parts">External & Body Parts</option><option value="External Lights & Indicators">External Lights & Indicators</option><option value="Footrests, Pedals & Pegs">Footrests, Pedals & Pegs</option><option value="Freezer">Freezer</option><option value="Gauges, Dials & Instruments">Gauges, Dials & Instruments</option><option value="Generator">Generator</option><option value="GPS & In-Car Technology">GPS & In-Car Technology</option><option value="Handlebars, Grips & Levers">Handlebars, Grips & Levers</option><option value="Helmets, Clothing & Protection">Helmets, Clothing & Protection</option><option value="Interior Parts & Furnishings">Interior Parts & Furnishings</option><option value="Lighting & Indicators">Lighting & Indicators</option><option value="Mirrors">Mirrors</option><option value="Oils, Lubricants & Fluids">Oils, Lubricants & Fluids</option><option value="Other">Other</option><option value="Reverse Camera">Reverse Camera</option><option value="Seating">Seating</option><option value="Service Kits">Service Kits</option><option value="Silencer">Silencer</option><option value="Starter Motors">Starter Motors</option><option value="Stickers">Stickers</option><option value="Suspension, Steering & Handling">Suspension, Steering & Handling</option><option value="Transmission & Drivetrain">Transmission & Drivetrain</option><option value="Turbos & Superchargers">Turbos & Superchargers</option><option value="Wheels, Tyres & Rims">Wheels, Tyres & Rims</option><option value="Windscreen Wipers & Washers">Windscreen Wipers & Washers</option></select>
+                        </select>
+                    </div> 
+
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Part Name and Brand</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Name and Brand">
+                    </div> 
+
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Price (Rs.)</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter price (negotiable)">
+                    </div> 
+                    
+                    <div class="form-group">
+                        <label for="exampleInputPassword1"  class="col-md-5 col-sm-12 ">Additional Infomartion</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Additional Information">
+                    </div> 
+
+                    <div class="form-group col-md-12 col-sm-12">
+                            <label for="exampleInputPassword1"  class="col-md-4 col-sm-12">Images</label>
+                            <i class="far fa-image fa-3x" style="margin-left: 25px"></i>
+                            <i class="far fa-image fa-3x" style="margin-left: 25px"></i>
+                            <i class="far fa-image fa-3x" style="margin-left: 25px"></i>
+
+                            <label for="exampleInputPassword1"  class="col-md-4 col-sm-12"></label>
+
+                            <i class="far fa-image fa-3x" style="margin-left: 25px"></i>
+                            <i class="far fa-image fa-3x" style="margin-left: 25px"></i>
+                            <i class="far fa-image fa-3x" style="margin-left: 25px"></i>
+                    </div>   
+                         
+                    
+                <div class="col-md-12">
+                    <div id="commonCenter"> 
+                            <button class="btn btn-danger col-md-5 col-sm-12" style="margin-left: 10px; margin-top: 25px"><i class="fas fa-eraser fa-lg" style="margin-right:8px"></i>Reset</button>
+                            <button class="btn btn-success col-md-5 col-sm-12" style="margin-left: 10px; margin-top: 25px"><i class="far fa-plus-square  fa-lg" style="margin-right:8px"></i>Post Add </button>
+                    </div>
+                </div> 
+            </form>
+    </div>
+    </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="myFooter" class="col-md-12 py-4" style="margin-top: 20px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sign up</a></li>
+                        <li><a href="#">Downloads</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>About us</h5>
+                </div>
+                <div class="col-sm-3">
+                    <h5>About us</h5>
+                </div>
+                <div class="col-sm-3">
+                    <h5>About us</h5>
+                </div>
+            </div>
+        </div>
+        <div class="social-networks">
+            <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="google"><i class="fab fa-google-plus-g"></i></a>
+        </div>
+    </footer>
+
+
+
+
+    <!--Javascript plugins-->
+    <script type='text/javascript' src='../js/jquery.collapsible.min.js'></script>
+    <script type='text/javascript' src='../js/swiper.min.js'></script>
+    <script type='text/javascript' src='../js/jquery.countdown.min.js'></script>
+    <script type='text/javascript' src='../js/circle-progress.min.js'></script>
+    <script type='text/javascript' src='../js/jquery.countTo.min.js'></script>
+    <script type='text/javascript' src='../js/jquery.barfiller.js'></script>
+    <script type='text/javascript' src='../js/custom.js'></script>
+</body>
+
+</html>
