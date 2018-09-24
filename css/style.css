@@ -391,4 +391,7 @@ body{
    flex: 0 0 auto;
    -webkit-flex: 0 0 auto;
 }
-
+.imgList{
+    width:70%;
+    height:55%;
+}
