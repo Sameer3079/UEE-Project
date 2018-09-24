@@ -10,6 +10,7 @@
     <!-- Bootstrap CSS For Left side Wrapper-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
+    <!-- Jquery -->
     <script type='text/javascript' src='js/jquery.js'></script> 
 
     <!--Bootstrap.min.css-->
@@ -21,8 +22,13 @@
     <!--Font awesome for icons-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
     <!-- Custom CSS file -->
     <link rel="stylesheet" href="./css/style.css">
+
+    <!--Animated.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
 
 </head>
 <body>
@@ -58,16 +64,118 @@
         </div><!-- .nav-bar -->
     </header><!-- .site-header -->
 
-
-    <div class="container" style="margin-top: 5px;">
-        <div class="jumbotron">
-            <h1 class="h1">Hello</h1>
+    <div class="container">
+        <div class="row search">
+            <div class="col-md-12">
+                <div class="input-group">
+                    <input type="text" id="searchInput" class="form-control text-center" placeholder="What Are You Search For?" aria-describedby="basic-addon1">
+                    <button type="submit" class="searchButton">
+                            <i class="fas fa-search fa-lg"></i>
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
 
+    <!-- category start-->
+    <section id="home-icon" class="py-4">
+            <div class="container" id="categories">
+                <div class="row">
+                        <div class="col-sm-6 col-md-4 animated zoomIn">
+                                <div class="thumbnail" id="category">
+                                    <div class="caption">
+                                        <h3>Cars</h3>
+                                        <a href=""><img src="./images/cars_logo.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-4 animated zoomIn">
+                                <div class="thumbnail" id="category">
+                                    <div class="caption">
+                                        <h3>Vans</h3>
+                                        <a href=""><img src="./images/van_logo.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                        </div>
+            
+                        <div class="col-sm-6 col-md-4 animated zoomIn">
+                                <div class="thumbnail" id="category">
+                                    <div class="caption">
+                                        <h3>Moter Bike</h3>
+                                        <a href=""><img src="./images/Traile_logo.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                        </div>
+                </div>
+            </div>
+        </section><!--Category end -->
+
+        <!--Search Form start-->
+        
+       <section class="py-2">
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-6 col-md-offset-2" style="background-color: blue;">
+                        <p>Hello</p>
+                   </div>
+               </div>
+           </div>
+       </section>
+
+
+       <section id="footer1" style="background-color: #1B4F72  ;" class="py-4">
+           <div class="container">
+               <div class="row">
+                   <div class="col">
+                       <div class="info-heade mb-5">
+                           <h1 class="tex-primary pb-3">
+                               Search Vehicle by City
+                           </h1>
+                           <p>Icons inherit the font-size of their parent container which allow them to match any text you might use with them. With the following classes, we can increase or decrease the size of icons relative to that inherited font-size.</p>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+
+
+       <!-- Footer -->
+
+      
+        <footer id="myFooter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <h5>Get started</h5>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Sign up</a></li>
+                            <li><a href="#">Downloads</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>About us</h5>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>About us</h5>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>About us</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="social-networks">
+                    <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="google"><i class="fab fa-google-plus-g"></i></a>
+            </div>
+        </footer>
+       
+       
+        
 
     <!--Javascript plugins-->
-    
     <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
     <script type='text/javascript' src='js/swiper.min.js'></script>
     <script type='text/javascript' src='js/jquery.countdown.min.js'></script>
