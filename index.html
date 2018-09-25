@@ -10,19 +10,25 @@
     <!-- Bootstrap CSS For Left side Wrapper-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
-    <script type='text/javascript' src='js/jquery.js'></script> 
+     
 
     <!--Bootstrap.min.css-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
 
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+
+    
 
     <!--Font awesome for icons-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
     <!-- Custom CSS file -->
     <link rel="stylesheet" href="./css/style.css">
+
+    <!--Animated.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
 
 </head>
 <body>
@@ -33,14 +39,14 @@
                 <div class="row">
                     <div class="col-12 d-flex flex-wrap justify-content-between align-items-center">
                         <div class="site-branding d-flex align-items-center">
-                           <a class="d-block" href="index.html" rel="home" style="font-size: 25px; text-decoration: none; color: white;">රියසෙවන​.COM</a>
+                           <a class="d-block" href="./index.html" rel="home" style="font-size: 25px; text-decoration: none; color: white;">රියසෙවන​.COM</a>
                            <a href="#"><i class="far fa-user fa-2x" style="color: white; margin-left: 25px; " data-toggle="tooltip" title="Login"></i></a>
                         </div><!-- .site-branding -->
                         
                         <nav class="site-navigation d-flex justify-content-end align-items-center">
                             <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-content-center">
                                 <li><a href="#">Post a Ad</a></li>
-                                <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="contactUs.html">Contact Us</a></li>
                             </ul>
                         </nav><!-- .site-navigation -->
 
@@ -58,16 +64,174 @@
         </div><!-- .nav-bar -->
     </header><!-- .site-header -->
 
-
-    <div class="container" style="margin-top: 5px;">
-        <div class="jumbotron">
-            <h1 class="h1">Hello</h1>
+    <div class="container">
+        <div class="row search">
+            <div class="col-md-12">
+                <div class="input-group">
+                    <input type="text" id="searchInput" class="form-control text-center" placeholder="What Are You Searching For?" aria-describedby="basic-addon1">
+                    <button type="submit" class="searchButton">
+                            <i class="fas fa-search fa-lg"></i>
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
 
-
-    <!--Javascript plugins-->
+    <!-- category start-->
+    <section id="home-icon" class="py-4">
+            <div class="container" id="categories">
+                <div class="row">
+                        <div class="col-sm-6 col-md-4 animated zoomIn">
+                                <div class="thumbnail" id="category">
+                                    <div class="caption">
+                                        <h3>Cars</h3>
+                                        <a href=""><img src="./images/cars_logo.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-4 animated zoomIn">
+                                <div class="thumbnail" id="category">
+                                    <div class="caption">
+                                        <h3>Vans</h3>
+                                        <a href=""><img src="./images/van_logo.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                        </div>
+            
+                        <div class="col-sm-6 col-md-4 animated zoomIn">
+                                <div class="thumbnail" id="category">
+                                    <div class="caption">
+                                        <h3>Moter Bike</h3>
+                                        <a href=""><img src="./images/Traile_logo.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                        </div>
+                </div>
+            </div>
+        </section><!--Category end -->
     
+        <div class="container">
+            <h1 style="text-align: center;">Find The Best Vehicle For You</h1>
+            <div class="col-md-8 offset-md-2">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="box">
+                                    <select name="" id="dropdown">
+                                        <option value="">Select Make</option>
+                                        <option value="">Aston</option>
+                                        <option value="">BMW</option>
+                                        <option value="">Toyota</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="box">
+                                    <select name="" id="dropdown">
+                                        <option value="">Select Type</option>
+                                        <option value="">Car</option>
+                                        <option value="">Jeep</option>
+                                        <option value="">Sport</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="box">
+                                    <select name="" id="dropdown">
+                                        <option value="">Select Condition</option>
+                                        <option value="">Any</option>
+                                        <option value="">Brand New</option>
+                                        <option value="">Registered</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="box">
+                                    <select name="" id="dropdown">
+                                        <option value="">Select Price Range</option>
+                                        <option value="">Any</option>
+                                        <option value="">100,000 - 500,000</option>
+                                        <option value="">500,000 - 10,000,00</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="box">
+                                    <input type="text" id="dropdown" placeholder="Type Model" class="form-control" style="height: 50px; background-color:#10222e; color: azure; ">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="box">
+                                    <select name="" id="dropdown">
+                                        <option value="">Select Year</option>
+                                        <option value="">2018</option>
+                                        <option value="">2017</option>
+                                        <option value="">2015</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+            </div>
+        </div>
+        <hr>
+        <!--Search Form start-->
+
+       <section id="footer1" style="" class="py-4">
+           <div class="container-fluied">
+               <div class="row">
+                    
+               </div>
+           </div>
+       </section>
+
+
+        <!-- Footer -->
+        <footer id="myFooter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <h5>Get started</h5>
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./terms.html">Terms & Conditions</a></li>
+                            <li><a href="./privacy.html">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>About us</h5>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>About us</h5>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>About us</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <b>© 2009-2018 Riyasewana.</b>
+                </div>
+            </div>
+            <div class="social-networks">
+                    <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="google"><i class="fab fa-google-plus-g"></i></a>
+                    <hr>
+                    <b style="">© 2009-2018 Riyasewana.</b>
+            </div>
+        </footer>
+       
+    
+    <!-- Jquery -->
+    <script type='text/javascript' src='js/jquery.js'></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
     <script type='text/javascript' src='js/swiper.min.js'></script>
     <script type='text/javascript' src='js/jquery.countdown.min.js'></script>
