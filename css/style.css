@@ -402,3 +402,9 @@ body{
     height:55%;
 }
 
+.col-centered{
+    float: none;
+    margin: 0 auto;
+    /* color: #e2c909; */
+    font-size: 125%;
+}
