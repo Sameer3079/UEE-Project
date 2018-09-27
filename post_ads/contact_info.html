@@ -34,6 +34,11 @@
     <!--Animated.css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
 
+    <script>
+            function  confirm() {
+                alert("Contact Information Updated Successfully!");
+            }
+    </script>
 
 </head>
 
@@ -116,13 +121,13 @@
                         placeholder="Enter Address">
                 </div>
                 <button class="btn btn-danger col-md-5 col-sm-12" style="margin-left: 10px; margin-top: 25px"><i class="fas fa-eraser fa-lg" style="margin-right:8px"></i>Reset</button>
-                <button type="submit" class="btn btn-primary col-md-5 col-sm-12" style="margin-left: 10px; margin-top: 25px"><i class="fas fa-save fa-lg" style="margin-right:8px"></i>Save Changes</button>
+                <button type="submit" class="btn btn-primary col-md-5 col-sm-12" onclick="confirm()" style="margin-left: 10px; margin-top: 25px"><i class="fas fa-save fa-lg" style="margin-right:8px"></i>Save Changes</button>
             </form>
         </div>
     </div>
 
-    <!-- Footer -->
-    <footer id="myFooter" class="col-md-12 py-4" style="margin-top: 20px;">
+   <!-- Footer -->
+   <footer id="myFooter" class="col-md-12 py-4" style="margin-top: 20px;">
         <div class="container">
             <div class="row">
                 <div class="col-sm-3">
@@ -149,7 +154,7 @@
                     <ul>
                         <li><a href="#">FAQ</a></li>
                         <li><a href="#">Stay Safe on Riysewana.com</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="../contactUs.html">Contact Us</a></li>
                     </ul>
                        
                 </div>
@@ -158,8 +163,8 @@
                     <ul>
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Career</a></li>
-                        <li><a href="#">Terms And Conditions</a></li>
-                        <li><a href="#">Privaxy Policy</a></li>
+                        <li><a href="../privacy.html">Terms And Conditions</a></li>
+                        <li><a href="../terms.html">Privacy Policy</a></li>
                         <li><a href="#">Sitemap</a></li>
                     </ul>
                 </div>
