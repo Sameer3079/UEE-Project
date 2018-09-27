@@ -16,11 +16,17 @@
     <script type='text/javascript' src='../js/jquery.js'></script> 
 
     <!--Bootstrap.min.css-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
 
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+    
     <!--Font awesome for icons-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
@@ -107,7 +113,7 @@
                                        
                                         
                                 </div>
-                                <button type="submit" class="btn btn-success">Register for free</button>
+                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal" style="margin:auto; display:block; margin-bottom:10px;  " >Register for free</button>
                                
                             </form>
                    </div>
@@ -117,9 +123,80 @@
         
     </div>
 
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">User Register</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                   User Registerd successfully
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-    
+
+    <!-- Footer -->
+    <footer id="myFooter" class="col-md-12 py-4" style="margin-top: 20px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <h5>Get started</h5>
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="#">Sign up</a></li>
+                            <li><a href="#">Downloads</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>Learn More</h5>
+                        <ul>
+                            <li><a href="#">How to Sell Fast</a></li>
+                            <li><a href="#">Riyasewana Compare</a></li>
+                            <li><a href="#">Buy Now on Riyasewana</a></li>
+                            <li><a href="#">Membership</a></li>
+                            <li><a href="#">Advertising</a></li>
+                            <li><a href="#">Promote Your ad</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>Help And Support</h5>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Stay Safe on Riysewana.com</a></li>
+                            <li><a href="./contactUs.html">Contact Us</a></li>
+                        </ul>
+                        
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>About us</h5>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Career</a></li>
+                            <li><a href="./terms.html">Terms And Conditions</a></li>
+                            <li><a href="./privacy.html">Privacy Policy</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="social-networks">
+                <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="google"><i class="fab fa-google-plus-g"></i></a>
+                <hr>
+                <b>© 2009-2018 Riyasewana.</b> 
+            </div>
+        </footer>
 
 
 
