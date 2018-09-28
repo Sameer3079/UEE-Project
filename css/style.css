@@ -13,7 +13,11 @@ img {
     vertical-align: baseline;
 }
 
-
+#center-text {	
+    display: block;	
+    margin: auto;	
+    text-align: center;	
+}
 
 /*--------------------------------------------------------------
 # Links
@@ -239,6 +243,46 @@ input[type="text"].big-dog::-webkit-input-placeholder {
 
 /*---------------------------------------------*/
 
+.box select{
+    background: #10222e;
+    color: #fff;
+    padding: 15px;
+    width: 250px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    margin: auto;
+    
+}
+
+.box{
+    margin:auto;
+    display:block;
+    width: 250px;
+    margin-bottom: 3px;
+}
+
+#Form{
+    margin:auto;
+    display:block;
+}
+
+.searchForm{
+     
+    border-radius: 3px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+#dropdown{
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+}
+
+select {
+    text-align: center;
+    text-align-last: center;
+  }
 
 
 .box select{
@@ -433,6 +477,12 @@ body{
 #myFooter{
    flex: 0 0 auto;
    -webkit-flex: 0 0 auto;
+}
+
+#commonCenter {
+    display: block;
+    margin:auto;
+    text-align : center;  
 }
 
 #footersection{
