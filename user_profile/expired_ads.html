@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Riyasewana</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS For Left side Wrapper-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <!-- Jquery -->
+    <script type='text/javascript' src='../js/jquery.js'></script>
+
+    <!--Bootstrap.min.css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <!--Font awesome for icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!--Animated.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+
+
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="nav-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex flex-wrap justify-content-between align-items-center">
+                        <div class="site-branding d-flex align-items-center">
+                            <a class="d-block" href="../index.html" rel="home" style="font-size: 25px; text-decoration: none; color: white;">රියසෙවන​.COM</a>
+                            <a href="#"><i class="far fa-user fa-2x" style="color: white; margin-left: 25px; "
+                                    data-toggle="tooltip" title="Login"></i></a>
+                        </div><!-- .site-branding -->
+
+                        <nav class="site-navigation d-flex justify-content-end align-items-center">
+                            <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-content-center">
+                                <li><a href="#">Post a Ad</a></li>
+                                <li><a href="../contact.html">Contact Us</a></li>
+                                <li class="d-block d-sm-none"><a href="./my_profile.html">My Profile</a></li>
+                                <li class="d-block d-sm-none"><a href="./edit_profile.html">Edit Profile</a></li>
+                                <li class="d-block d-sm-none"><a href="./change_password.html">Change Password</a></li>
+                                <li class="d-block d-sm-none"><a href="./expired_ads.html">Expired Ads</a></li>
+                                <li class="d-block d-sm-none"><a href="./favourites.html">Favourites</a></li>
+                                <li class="d-block d-sm-none"><a href="../index.html">Logout</a></li>
+                            </ul>
+                        </nav><!-- .site-navigation -->
+
+
+                        <div class="hamburger-menu d-lg-none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div><!-- .hamburger-menu -->
+
+                    </div><!-- .col -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </div><!-- .nav-bar -->
+    </header><!-- .site-header -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3" style="margin-bottom: 10px">
+                <h1 class="h2" id="center-text" style="margin-bottom: 10px;margin-top: 10px;">Expired Advertisements</h1>
+            </div>
+            <div class="col-md-6"></div>
+        </div>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Title</th>
+                        <th scope="col">Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Toyota Prius</td>
+                        <td><button class="btn" type="button" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-trash-alt"
+                                    style="color: red;" id="delete"></i></button></td>
+                    </tr>
+                    <tr>
+                        <td>Toyota Hiace</td>
+                        <td><button class="btn" type="button" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-trash-alt"
+                                    style="color: red;" id="delete"></i></button></td>
+                    </tr>
+                    <tr>
+                        <td>Honda Fit</td>
+                        <td><button class="btn" type="button" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-trash-alt"
+                                    style="color: red;" id="delete"></i></button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Confirm Delete</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Are you sure you want to delete this advertisement?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">No</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal" data-toggle="modal" data-target="#deletedSuccessfully">Yes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="deletedSuccessfully" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Advertisement Deleted</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    The selected advertisement has been deleted successfully
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="myFooter" class="col-md-12 py-4" style="margin-top: 20px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <h5>Get started</h5>
+                        <ul>
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="#">Sign up</a></li>
+                            <li><a href="#">Downloads</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>Learn More</h5>
+                        <ul>
+                            <li><a href="#">How to Sell Fast</a></li>
+                            <li><a href="#">Riyasewana Compare</a></li>
+                            <li><a href="#">Buy Now on Riyasewana</a></li>
+                            <li><a href="#">Membership</a></li>
+                            <li><a href="#">Advertising</a></li>
+                            <li><a href="#">Promote Your ad</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>Help And Support</h5>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Stay Safe on Riysewana.com</a></li>
+                            <li><a href="../contactUs.html">Contact Us</a></li>
+                        </ul>
+                        
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>About us</h5>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Career</a></li>
+                            <li><a href="../terms.html">Terms And Conditions</a></li>
+                            <li><a href="../privacy.html">Privacy Policy</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="social-networks">
+                <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="google"><i class="fab fa-google-plus-g"></i></a>
+                <hr>
+                <b>© 2009-2018 Riyasewana.</b> 
+            </div>
+        </footer>
+
+
+
+
+    <!--Javascript plugins-->
+    <script type='text/javascript' src='../js/jquery.collapsible.min.js'></script>
+    <script type='text/javascript' src='../js/swiper.min.js'></script>
+    <script type='text/javascript' src='../js/jquery.countdown.min.js'></script>
+    <script type='text/javascript' src='../js/circle-progress.min.js'></script>
+    <script type='text/javascript' src='../js/jquery.countTo.min.js'></script>
+    <script type='text/javascript' src='../js/jquery.barfiller.js'></script>
+    <script type='text/javascript' src='../js/custom.js'></script>
+</body>
+
+</html>
