@@ -43,124 +43,162 @@
                 <div class="row">
                     <div class="col-12 d-flex flex-wrap justify-content-between align-items-center">
                         <div class="site-branding d-flex align-items-center">
-                            <a class="d-block" href="index.html" rel="home" style="font-size: 25px; text-decoration: none; color: white;">රියසෙවන​.COM</a>
+                            <a class="d-block" href="../index.html" rel="home" style="font-size: 25px; text-decoration: none; color: white;">රියසෙවන​.COM</a>
                             <a href="#"><i class="far fa-user fa-2x" style="color: white; margin-left: 25px; "
                                     data-toggle="tooltip" title="Login"></i></a>
                         </div><!-- .site-branding -->
 
+
                         <nav class="site-navigation d-flex justify-content-end align-items-center">
-                            <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-content-center">
+                            <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-content-center .d-none .d-lg-block .d-xl-none">
                                 <li>
-                                    <div class="dropdown">
-                                        <button class="dropbtn">Brand
-                                            <i class="fa fa-caret-down"></i>
-                                        </button>
-                                        <div class="dropdown-content">
-                                            <a href="#">Toyota</a>
-                                            <a href="#">Dodge</a>
-                                            <a href="#">Ford</a>
-                                        </div>
+                                    <select class="form-control selectNav">
+                                        <option>Brand</option>
+                                        <option>Toyota</option>
+                                        <option>Dodge</option>
+                                        <option>Ford</option>
+                                    </select>
+                                </li>
+                                <li>
+                                    <select class="form-control selectNav">
+                                        <option>Model</option>
+                                        <option>CHR</option>
+                                        <option>Corolla</option>
+                                        <option>Prius</option>
+                                    </select>
+                                </li>
+                                <li>
+                                    <select class="form-control selectNav">
+                                        <option>Condition</option>
+                                    </select>
+                                </li>
+                                <li>
+                                    <select class="form-control selectNav">
+                                        <option>Fuel Type</option>
+                                    </select>
+                                </li>
+                                <li>
+                                    <select class="form-control selectNav">
+                                        <option>Transmission</option>
+                                        <option>Automatic</option>
+                                        <option>Manual</option>
+                                        <option>Tiptronic</option>
+                                    </select>
+                                </li>
+                                <li>
+                                    <select class="form-control selectNav">
+                                        <option>Year</option>
+                                    </select>
+                                </li>
+                                <li>
+                                    <select class="form-control selectNav">
+                                        <option>BodyType</option>
+                                        <option>Salon</option>
+                                        <option>SUV</option>
+                                        <option>Coupe</option>
+                                    </select>
+                                </li>
+                            </ul>
+                            <!--navbar for dekstop-->
+                            <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-content-center d-block d-sm-none">
+                                <li>
+                                    <button class="dropdown-btn">Brand
+                                        <i class="fa fa-caret-down"></i>
+                                    </button>
+                                    <div class="dropdown-container">
+                                        <a href="#">Toyota</a>
+                                        <a href="#">Dodge</a>
+                                        <a href="#">Ford</a>
+                                    </div>
+
+                                </li>
+                                <li>
+                                    <button class="dropdown-btn">Model
+                                        <i class="fa fa-caret-down"></i>
+                                    </button>
+                                    <div class="dropdown-container">
+                                        <a href="#">CHR</a>
+                                        <a href="#">Corolla</a>
+                                        <a href="#">Prius</a>
+                                    </div>
+
+                                </li>
+
+                                <li>
+                                    <button class="dropdown-btn">Condition
+                                        <i class="fa fa-caret-down"></i>
+                                    </button>
+                                    <div class="dropdown-container">
+                                        <a href="#">Brand new</a>
+                                        <a href="#">Used</a>
+                                        <a href="#">Re-conditioned</a>
+                                    </div>
+
+                                </li>
+                                <li>
+                                    <button class="dropdown-btn">Fuel Type
+                                        <i class="fa fa-caret-down"></i>
+                                    </button>
+                                    <div class="dropdown-container">
+                                        <a href="#">Diesel</a>
+                                        <a href="#">Petrol</a>
+                                        <a href="#">Other</a>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="dropdown">
-                                        <button class="dropbtn">Model
-                                            <i class="fa fa-caret-down"></i>
-                                        </button>
-                                        <div class="dropdown-content">
-                                            <a href="#">CHR</a>
-                                            <a href="#">Corolla</a>
-                                            <a href="#">Prius</a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="dropdown">
-                                        <button class="dropbtn">Condition
-                                            <i class="fa fa-caret-down"></i>
-                                        </button>
-                                        <div class="dropdown-content">
-                                            <a href="#">Brand new</a>
-                                            <a href="#">Used</a>
-                                            <a href="#">Re-conditioned</a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="dropdown">
-                                        <button class="dropbtn">Fuel Type
-                                            <i class="fa fa-caret-down"></i>
-                                        </button>
-                                        <div class="dropdown-content">
-                                            <a href="#">Diesel</a>
-                                            <a href="#">Petrol</a>
-                                            <a href="#">Other</a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="dropdown">
-                                        <button class="dropbtn">Transmission
-                                            <i class="fa fa-caret-down"></i>
-                                        </button>
-                                        <div class="dropdown-content">
-                                            <a href="#">Automatic</a>
-                                            <a href="#">Manual</a>
-                                            <a href="#">Tiptronic</a>
-                                        </div>
+                                    <button class="dropdown-btn">Transmission
+                                        <i class="fa fa-caret-down"></i>
+                                    </button>
+                                    <div class="dropdown-container">
+                                        <a href="#">Automatic</a>
+                                        <a href="#">Manual</a>
+                                        <a href="#">Tiptronic</a>
                                     </div>
                                 </li>
 
                                 <li>
-                                    <div class="dropdown">
-                                        <button class="dropbtn">Year
-                                            <i class="fa fa-caret-down"></i>
-                                        </button>
-                                        <div class="dropdown-content">
-                                            <a href="#">2018</a>
-                                            <a href="#">2017</a>
-                                            <a href="#">2016</a>
-                                        </div>
+                                    <button class="dropdown-btn">Year
+                                        <i class="fa fa-caret-down"></i>
+                                    </button>
+                                    <div class="dropdown-container">
+                                        <a href="#">(1980-2018)</a> <input type="range" min="1980" max="2018" value="2008"
+                                            class="slider" id="myRange">
+
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="dropdown">
-                                        <button class="dropbtn">Price
-                                            <i class="fa fa-caret-down"></i>
-                                        </button>
-                                        <div class="dropdown-content">
-                                            <a href="#">Link 1</a>
-                                            <a href="#">Link 2</a>
-                                            <a href="#">Link 3</a>
-                                        </div>
+                                    <button class="dropdown-btn">Price
+                                        <i class="fa fa-caret-down"></i>
+                                    </button>
+                                    <div class="dropdown-container">
+                                        <a href="#">(Rs.0-Rs.2000000)</a>
+                                        <input type="range" min="0" max="2000000" value="1000" class="slider" id="myRange">
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="dropdown">
-                                        <button class="dropbtn">Body Type
-                                            <i class="fa fa-caret-down"></i>
-                                        </button>
-                                        <div class="dropdown-content">
-                                            <a href="#">Salon</a>
-                                            <a href="#">Coupe</a>
-                                            <a href="#">Hatchpack</a>
-                                        </div>
+                                    <button class="dropdown-btn">Body Type
+                                        <i class="fa fa-caret-down"></i>
+                                    </button>
+                                    <div class="dropdown-container">
+                                        <a href="#">Salon</a>
+                                        <a href="#">Coupe</a>
+                                        <a href="#">Hatchpack</a>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="dropdown">
-                                        <button class="dropbtn">Mileage
-                                            <i class="fa fa-caret-down"></i>
-                                        </button>
-                                        <div class="dropdown-content">
-                                            <a href="#">Link 1</a>
-                                            <a href="#">Link 2</a>
-                                            <a href="#">Link 3</a>
-                                        </div>
+                                    <button class="dropdown-btn">Mileage
+                                        <i class="fa fa-caret-down"></i>
+                                    </button>
+                                    <div class="dropdown-container">
+                                        <a href="#">(0km-2000000km)</a>
+                                        <input type="range" min="0" max="2000000" value="1000" class="slider" id="myRange">
                                     </div>
                                 </li>
                             </ul>
-                        </nav><!-- .site-navigation -->
+                            <!--site navigation for mobile-->
+                        </nav>
+                        <!--.site-navigation for dekstop -->
+
 
                         <div class="hamburger-menu d-lg-none">
                             <span></span>
@@ -212,19 +250,6 @@
             </form>
         </tr>
     </table>
-    <!-- <div class="container btn-md" style="padding-top:2%">
-        <button type="button" class="btn btn-info" style="width:49%;">
-            <span class="glyphicon glyphicon-search"></span>Select Location
-        </button>
-        <button type="button" class="btn btn-info" style="width:49%;">
-            <span class="glyphicon glyphicon-search"></span>Vehicle Category
-        </button>
-    </div> -->
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-    <!------ Include the above in your HEAD tag ---------->
-
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-6 col-md-6">
@@ -394,6 +419,23 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <script>
+        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+
+        for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var dropdownContent = this.nextElementSibling;
+                if (dropdownContent.style.display === "block") {
+                    dropdownContent.style.display = "none";
+                } else {
+                    dropdownContent.style.display = "block";
+                }
+            });
+        }
+    </script>
 </body>
 
 </html>
